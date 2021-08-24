@@ -1,0 +1,146 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(31,31,77);
+}
+.div1{      
+    width:600px;
+    height:830px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bolder;
+    border:10px solid black;
+    border-radius:50px;
+    margin:20px 0px 0px 0px;    
+    box-sizing:border-box;    
+    background-color:skyblue;
+}
+.select1,.select2,.select3{
+    display:block;
+    width:430px;
+    height:60px;
+    font-size:30px;
+    font-weight:bolder;    
+    border:10px solid black;
+    border-radius:50px;
+    margin:0px 0px 10px 70px;
+    padding:0px 0px 0px 70px;
+    box-sizing:border-box;
+    background-color:yellow;		
+}
+.select2{
+    width:400px;
+    height:60px;
+    margin:0px 0px 10px 0px;
+    padding:0px 10px 0px 30px;
+}
+.select3{
+    display:inline-block;
+    width:430px;
+    height:60px;
+    margin:0px 0px 10px 0px;
+    padding:0px 0px 0px 30px;	
+}
+.select3 option {
+    text-align:justify;
+	color: red;
+}
+.select1 option {
+    text-align:center;    
+	color:black;
+}
+.input_qtd{
+    display:block;
+    width:430px;
+    height:60px;
+    text-align:center;
+    font-size:30px;    
+    color:black;    
+    border:10px solid black;
+    border-radius:50px;
+    margin:0px 0px 10px 70px;    
+    box-sizing:border-box;
+    background-color:white;
+}
+.btn_calc{
+    display:inline-block;
+    width:220px;
+    height:60px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bolder;
+    border:10px solid black;
+    border-radius:50px;
+    margin:0px 0px 10px 0px;
+    box-sizing:border-box;
+    background-color:white;    
+}
+.btn_calc:hover{
+    background-color:#F00;
+    color:white;
+}
+.btn_limpar,.btn_limpar1{
+    display:inline-block;
+    width:180px;
+    height:60px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bolder;
+    border:10px solid black;
+    border-radius:50px;
+    margin:0px 0px 0px 40px;    
+    box-sizing:border-box;
+    background-color:white;    
+}
+.btn_limpar:hover{
+    background-color:#F00;
+    color:white;
+}
+.btn_limpar1:hover{
+    color:white;
+}
+.btn_limpar1{
+    display:block;
+    margin:0px 0px 10px 200px;    
+}
+a{  
+    display:block;  
+    width:150px;
+    height:60px;
+    text-align:center;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:0px;
+    color:black;
+    border:10px solid black;
+    border-radius:50px;
+    margin:10px 0px 0px 210px;
+    padding:5px 0px 0px 0px;
+    box-sizing:border-box;
+    background-color:white;    
+}
+a:hover{
+    color:white;
+    background-color:red;
+}
+ul{
+    list-style:none;
+}
+li{
+    width:auto;
+    height:auto;
+    border:10px solid black;
+    margin:0px 40px 0px 0px;
+    background-color: whitesmoke;
+    text-align:center;
+}
+.tabela{
+    background-color: #F00;
+    color:white;
+}
+hr{
+    border:5px groove black;
+    background-color: black;
+}
+
+
