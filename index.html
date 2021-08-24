@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/mercado.css">    
+    <title>Document</title>
+</head>
+<body> 
+    <div class="div1" id="result1">
+        <form id="form" method="get" action="#" onsubmit="recebe()">
+            <h2>Hipermercado Tabajara</h2>
+            <select class="select1" name="" id="carne1">
+                <option selected disabled value="">Escolher Carne</option>    
+                <option value="Filé Duplo">---- Filé Duplo ----</option>
+                <option value="Alcatra">----- Alcatra -----</option>
+                <option value="Picanha">----- Picanha -----</option>
+            </select>                                        
+            <input class="input_qtd" id ="qtd1" name="qtd1" onmouseover="mudaCor(this,'#F00')" onmouseout="mudaCor(this,'#FFF')" type="text" min="0" placeholder="kilo">
+            <select class="select1" name="" id="carne2">
+                <option selected disabled value="">Escolher Carne</option>
+                <option value="Filé Duplo">---- Filé Duplo ----</option>
+                <option value="Alcatra">----- Alcatra -----</option>
+                <option value="Picanha">----- Picanha -----</option>
+            </select>                            
+            <input class="input_qtd" id ="qtd2" name="qtd2" onmouseover ="mudaCor(this,'#F00')" onmouseout="mudaCor(this,'#FFF')" type="text" min="0" placeholder="kilo">
+            <input class="btn_limpar1" id="" name="limpar1" onmouseover ="mudaCor(this,'#F00')" onmouseout="mudaCor(this,'#FFF')" onclick="limpaEscolha()" type="button" value="Limpar">                               
+            <hr>
+            <h2>Pagamento</h2>
+            <select class="select3" name="pag" id="pag">
+                <option selected disabled value="">Escolher Pagamento</option>
+                <option value="Dinheiro">---------- Dinheiro --------</option>
+                <option value="Débito">---------- Débito -----------</option>
+                <option value="Crédito">---------- Crédito ----------</option>
+            </select>            
+            <button class="btn_calc" id="botao" type="submit">Calcular</button>
+            <input class="btn_limpar" onclick="limpaPag()"type="button" value="Limpar">                                                               
+        </form>
+        <script src="JAVASCRIPT/mercado.js"></script>        
+    </div>                    
+</body>
+</html>
